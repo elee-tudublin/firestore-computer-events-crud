@@ -239,7 +239,7 @@ async function deleteEvent(id) {
   // Confirm delete
   if (confirm("Are you sure?")) {
 
-    // Call repo delete
+    // Call delete function from eventRepo.js
     const result = await deleteEventById(id)
 
     if (result == true)

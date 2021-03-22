@@ -148,6 +148,6 @@ async function updateEvent(event) {
 //
 // delete event by id
 async function deleteEventById(id) {
-  // Call firebase.js function
+  // Call firebase.js function to delete a doc by id
   return await deleteById(THIS_COLLECTION, id)
 }
