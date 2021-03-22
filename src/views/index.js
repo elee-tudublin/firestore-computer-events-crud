@@ -183,11 +183,17 @@ function getFormData() {
   );
 } // End function
 
+//
+// Populate form fields with event values for editing
 async function prepareEventUpdate(id) {
+
+  // 1. Setup the form for editing
   eventFormSetup(`Update Event`);
 
+  // 2. Get the event by id
   const event = await getEventById(id);
 
+  // 3. Set the input values to match the existing event
   if (event) {
     // Fill out the form
     document.getElementById('id').value = event.id;
@@ -199,7 +205,6 @@ async function prepareEventUpdate(id) {
     document.getElementById('user').value = event.user;
     document.getElementById('description').value = event.description;
   }
-
 } // End function
 
 //

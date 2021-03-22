@@ -114,7 +114,7 @@ async function getEventsByComputerId(compId) {
 }
 
 //
-// Add new event
+// Add new event based on object parameter
 async function addEvent(event) {
   // Call firebase.js function
   return await addDoc(THIS_COLLECTION,
