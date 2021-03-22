@@ -211,6 +211,7 @@ async function addOrUpdateEvent() {
 
   let result;
 
+  // if id is empty add, otherwise update
   if (event.id == '') {
     // New event
     result = await addEvent(event);
