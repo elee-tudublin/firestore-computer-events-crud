@@ -156,12 +156,12 @@ async function loadAndDisplayData() {
 // Setup product form
 function eventFormSetup(title) {
   // reset the form and change the title
-  //document.getElementById('eventForm').reset();
+  document.getElementById('eventForm').reset();
   document.getElementById('eventFormTitle').innerHTML = title;
 
   // form reset doesn't work for hidden inputs!!
-  // do this to rreset previous id if set
-  //document.getElementById("id").value = '';
+  // do this to reset previous id if set
+  document.getElementById("id").value = '';
 } // End function
 
 //
