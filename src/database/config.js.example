@@ -1,0 +1,16 @@
+/* 
+   example firebaseConfig
+   Rename this file to config.js
+   Then fill the values for your Firebase project
+*/
+
+// Your Firebase configuration
+const firebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
+  };

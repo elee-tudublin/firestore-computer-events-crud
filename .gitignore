@@ -1,0 +1,7 @@
+node_modules/*
+bin/*.dll
+obj/*
+*.sln
+*.log
+package-lock.json
+src/database/config.js
