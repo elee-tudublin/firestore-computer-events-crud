@@ -20,3 +20,7 @@ Rename **config.js.example** to **config.js** and add your firebase config detai
 ![Site Structure](https://github.com/elee-tudublin/firestore-computers-events-example/blob/main/images/structure.png)
 
 ### 3. Open index.html to view
+Important: Use script elements to load your JavaScript and dependencies in your pages.
+The order is important, for example Google's Firebase scripts must be loaded first. 
+
+![Scripts and Dependencies](https://github.com/elee-tudublin/firestore-computers-events-example/blob/main/images/index-dependencies.png)
