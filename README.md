@@ -27,4 +27,4 @@ The order is important, for example Google's Firebase scripts must be loaded fir
 
 ### 3. Open index.html to view
 The working site looks like this:
-![Scripts and Dependencies](https://github.com/elee-tudublin/firestore-computer-events-crud/blob/main/images/events-page.png)
+![Finished example](https://github.com/elee-tudublin/firestore-computer-events-crud/blob/main/images/events-page.png)
