@@ -5,3 +5,4 @@ obj/*
 *.log
 package-lock.json
 src/database/config.js
+.firebaserc
